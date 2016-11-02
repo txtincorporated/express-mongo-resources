@@ -1,0 +1,32 @@
+{
+  "name": "express-mongo-resources",
+  "version": "1.0.0",
+  "description": "simple mongo db",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/txtincorporated/express-mongo-resources.git"
+  },
+  "keywords": [
+    "mongo"
+  ],
+  "author": "Nathan P. Keene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/txtincorporated/express-mongo-resources/issues"
+  },
+  "homepage": "https://github.com/txtincorporated/express-mongo-resources#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^3.9.1",
+    "mocha": "^3.1.2"
+  }
+}

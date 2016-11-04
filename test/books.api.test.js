@@ -22,9 +22,10 @@ describe('book', () => {
         .listCollections({name})
         .next((err, collinfo) => {
           if (!collinfo) return done();
-          connection.db.dropCollection(name, done);
+          connection.db.dropCollection(name);
         });
     };
+    done();
   });
 
   const request = chai.request(app);

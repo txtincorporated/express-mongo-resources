@@ -31,11 +31,13 @@ describe('book', () => {
 
   const sawyer = {
     title: 'Tom Sawyer',
-    author: 'Mark Twain'
+    author: 'Mark Twain',
+    genre: 'novel'
   }; 
   const clemens = {
     title: 'Tom Sawyer',
     author: 'Samuel Clemens',
+    genre: 'novel'
   };
 
   var bookResult = null;

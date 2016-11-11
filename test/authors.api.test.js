@@ -31,12 +31,12 @@ describe('author', () => {
 
   const trout = {
     name: 'Kilgore Trout',
-    centuries: '20th',
+    centuries: ['20th'],
     altname: 'Theodore Sturgeon'
   };
   const sturgeon = {
     name: 'Kilgore Trout',
-    centuries: '20th',
+    centuries: ['20th'],
     altname: ''
   };
 

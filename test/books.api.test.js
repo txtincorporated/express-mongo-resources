@@ -33,12 +33,12 @@ describe('test books resource route', () => {
   const sawyer = {
     title: 'Tom Sawyer',
     author: 'Mark Twain',
-    genre: 'novel'
+    genres: ['novel']
   }; 
   const clemens = {
     title: 'Tom Sawyer',
     author: 'Samuel Clemens',
-    genre: 'novel'
+    genres: ['novel']
   };
 
   var bookResult = null;

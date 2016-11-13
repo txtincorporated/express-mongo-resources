@@ -32,7 +32,6 @@ describe('Author model tests', () => {
     });
 
     author.validate(() => {
-      console.log('Centuries: ', author.centuries);
       assert.isOk(author.centuries);
       done();
     });
